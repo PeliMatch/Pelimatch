@@ -1,0 +1,285 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado y navegación */
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Sección del héroe */
+#hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Sección de seguir en TikTok */
+#follow-me {
+    background-color: #222;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#follow-me h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#follow-me p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Sección de características */
+#features {
+    background-color: #111;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Sección de descarga de la aplicación */
+#download {
+    background-color: #000;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+#download h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#download p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+/*nav */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links li a.active {
+    color: #ff0000;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin-left: 5px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    #hero {
+        padding: 80px 0;
+    }
+
+    #hero h2 {
+        font-size: 24px;
+    }
+
+    #hero p {
+        font-size: 16px;
+    }
+
+    #follow-me {
+        padding: 80px 0;
+    }
+
+    #follow-me h2 {
+        font-size: 24px;
+    }
+
+    #follow-me p {
+        font-size: 16px;
+    }
+
+    #features {
+        padding: 80px 0;
+    }
+
+    #features h2 {
+        font-size: 24px;
+    }
+
+    .feature h3 {
+        font-size: 20px;
+    }
+
+    .feature p {
+        font-size: 14px;
+    }
+
+    #download {
+        padding: 80px 0;
+    }
+
+    #download h2 {
+        font-size: 24px;
+    }
+
+    #download p {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links li a {
+        font-size: 13px;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+}

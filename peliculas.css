@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+/* Slider */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin: 40px;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+  margin-right: 20px;
+  background-color: rgba(75, 75, 75, 0.2);
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide:last-child {
+  margin-right: 0;
+}
+
+.slide img {
+  width: 180px;
+  height: 250px;
+  object-fit: cover;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 10px;
+  transition: opacity 0.2s;
+}
+
+.prev-button {
+  left: 20px;
+}
+
+.next-button {
+  right: 20px;
+}
+
+.movie-card-text {
+  text-align: center;
+}
+
+
+
+
+/* Slider */
+.slider-container2 {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin: 40px;
+}
+
+.slider2 {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide2 {
+  margin-right: 20px;
+  background-color: rgba(75, 75, 75, 0.2);
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide2:last-child {
+  margin-right: 0;
+}
+
+.slide2 img {
+  width: 180px;
+  height: 250px;
+  object-fit: cover;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.slider2-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 10px;
+  transition: opacity 0.2s;
+}
+
+.prev-button2 {
+  left: 20px;
+}
+
+.next-button2 {
+  right: 20px;
+}
+
+.movie-card-text2 {
+  text-align: center;
+}
+
+
+
